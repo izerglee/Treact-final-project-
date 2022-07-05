@@ -24,8 +24,10 @@
             <a href="" class="nav__link">Blog</a>
             <a href="" class="nav__link">Pricing</a>
             <a href="" class="nav__link">Contact Us</a>
-            <a href="" class="nav__link nav__link--">Login</a>
-            <a href="" class="nav__link">Sign Up</a>
+           <div class="primary__links">
+            <a href="" class="nav__link">Login</a>
+            <a href="" class="nav__link nav__link-primary">Sign Up</a>
+        </div>
         </div>
         </div>
     </div>
@@ -36,10 +38,8 @@
 <div class="header__description">
 <h2 class="header__title">Beautiful React Templates <span class="purple">for you.</span></h1>
 <p class="header__para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
-<div class="header__btn">
-<input type="text" placeholder="Your E-mail Address">
-<button>Get Started</button>
-</div>
+<input type="text" class="email" placeholder="Your E-mail Address">
+<button class="email__btn">Get Started</button>
 <div class="customer__container">
 <p>OUR TRUSTED CUSTOMERS</p>
 <div class="customer__img--container">
@@ -56,14 +56,14 @@
 <div class="container">
     <div class="row">
         <div class="feature__container">
-            <span class="purple">FEATURES</span>
+            <span class="purple__features">FEATURES</span>
 <h2 class="feature__title">We have Amazing <span class="purple">Service.</span></h2>
    <p class="feature__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae eveniet, voluptas tenetur nemo iure repudiandae doloremque expedita sapiente libero odio, architecto ipsa veritatis! Eos necessitatibus commodi, vero totam qui sequi?</p>     
 <div class="">
 <div class="services">
     <div class="service">
         <span class="image__container">
-            <img src="" alt="">
+            <img src="./assets/Secure__icon.svg" alt="">
         </span>
         <div class="text__container">
             <h5>Secure</h5>
@@ -72,7 +72,7 @@
     </div>
     <div class="service">
         <span class="image__container">
-            <img src="" alt="">
+            <img src="./assets/support__icon.svg" alt="">
         </span>
         <div class="text__container">
             <h5>24/7 Support</h5>
@@ -81,7 +81,7 @@
     </div>
     <div class="service">
         <span class="image__container">
-            <img src="" alt="">
+            <img src="./assets/Customizable__icon.svg" alt="">
         </span>
         <div class="text__container">
             <h5>Customizable</h5>
@@ -90,7 +90,7 @@
     </div>
     <div class="service">
         <span class="image__container">
-            <img src="" alt="">
+            <img src="./assets/Reliable__icon.svg" alt="">
         </span>
         <div class="text__container">
             <h5>Reliable</h5>
@@ -99,15 +99,16 @@
     </div>
     <div class="service">
         <span class="image__container">
-        <img src="" alt="">
+        <img src="./assets/Fast__icon.svg" alt="">
     </span>
         <div class="text__container">
             <h5>Fast</h5>
             <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
         </div>
+    </div>
         <div class="service">
             <span class="image__container">
-                <img src="" alt="">
+                <img src="./assets/Easy__icon.svg" alt="">
             </span>
             <div class="text__container">
                 <h5>Easy</h5>
