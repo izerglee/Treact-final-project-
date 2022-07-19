@@ -41,7 +41,7 @@ p{
 }
 
 .container{
-    padding: 80px;
+    padding: 80px 0;
 }
 
 #landing{
@@ -207,14 +207,16 @@ flex-direction: column;
 }
 
 .feature__title{
-    font-size: 56px;
+    font-size: 48px;
     padding: 16px 0;
+    font-weight: 900;
 }
 
 .feature__para{
     text-align: center;
     width: 50%;
 padding: 16px 0;
+color: #7c8ba1;
 }
 
 .services{
@@ -228,4 +230,31 @@ padding: 16px 0;
     width: calc(100%/3);
 }
 
+.text__img-container{
+    flex-shrink: 0;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+    border-radius: 50px;
+    align-items: flex-start;
+    padding: 20px;
+}
 
+.text__img{
+
+}
+
+.text__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text__title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #243e63;
+}
+
+.text__description{
+color: #7c8ba1;
+line-height: 2;
+}
