@@ -20,11 +20,16 @@ a:hover{
 
 .purple{
 color: #6415ff;
-font-weight: 700;
+}
+
+h5{
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 16px;
 }
 
 h2{
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 700;
 }
 
@@ -32,6 +37,16 @@ p{
     font-size: 16px;
     font-weight: 400;
     color:  rgba(36,62,99,1);
+}
+
+.btn{
+    border: transparent;
+    border-radius: 50px;
+    background:#6415ff;
+    color:  #f7fafc;
+    padding: 12px 32px;
+    margin-top: 36px; 
+    font-weight: 700;
 }
 
 .row{
@@ -210,51 +225,101 @@ flex-direction: column;
     font-size: 48px;
     padding: 16px 0;
     font-weight: 900;
+    color: #243e63;
+    letter-spacing: 1.5px;
+}
+
+.service__purple{
+    font-weight: 900;
 }
 
 .feature__para{
     text-align: center;
     width: 50%;
-padding: 16px 0;
+padding-bottom: 16px;
 color: #7c8ba1;
+line-height: 1.5;
+font-size: 18px;
+font-weight: 500;
 }
 
 .services{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 32px;
 }
 
 .service{
     display: flex;
     width: calc(100%/3);
+    padding: 32px 32px;
 }
 
-.text__img-container{
-    flex-shrink: 0;
+.service__img-container{
     border: 1px solid #e5e7eb;
     text-align: center;
     border-radius: 50px;
-    align-items: flex-start;
     padding: 20px;
+    max-height: 66px;
 }
 
-.text__img{
-
-}
-
-.text__container{
+.service__container{
     display: flex;
     flex-direction: column;
+    padding-left: 16px;
+    max-width: 250px;
 }
 
-.text__title{
+.service__title{
     font-size: 24px;
     font-weight: 700;
     color: #243e63;
 }
 
-.text__description{
+.service__para{
 color: #7c8ba1;
 line-height: 2;
+margin-top: 8px;
+font-weight: 500;
+}
+
+/* 
+
+QUALITY
+
+*/
+
+.quality__container{
+    display: flex;
+    width: 100%;
+}
+
+.quality__description{
+    width: 50%;
+    text-align: left;
+padding-right: 24px;
+}
+
+.quality__title{
+    margin: 16px 0;
+}
+
+.quality__para{
+    color: #7c8ba1;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.quality__img-container{
+    display: flex;
+    width: 50%;
+   border: 1px solid #e5e7eb;
+   border-radius: 5px;
+   overflow: hidden;
+}
+
+.quality__img{
+    width: 100%;
 }
