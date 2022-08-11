@@ -31,6 +31,7 @@ h5{
 h2{
     font-size: 48px;
     font-weight: 700;
+    color: #243e63;
 }
 
 p{
@@ -57,15 +58,25 @@ p{
 
 .container{
     padding: 80px 0;
+    
 }
 
-#landing{
-    height: 100vh;
+.quality__container,
+ .steps__container{
+    display: flex;
+    width: 100%;
 }
 
-#features{
-    height: 100vh;
+.quality__description,
+.quality__img,
+.steps__img-container,
+.steps__description{
+    width: 50%;
 }
+
+
+
+
 
 /*
  
@@ -290,11 +301,6 @@ QUALITY
 
 */
 
-.quality__container{
-    display: flex;
-    width: 100%;
-}
-
 .quality__description{
     width: 50%;
     text-align: left;
@@ -308,7 +314,7 @@ padding-right: 24px;
 .quality__para{
     color: #7c8ba1;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.5;
 }
 
@@ -323,3 +329,56 @@ padding-right: 24px;
 .quality__img{
     width: 100%;
 }
+
+/* 
+
+STEPS
+
+*/
+
+.steps__img-container{
+    width: 50%;
+}
+
+.steps__img{
+width: 100%;
+
+}
+
+.steps__title{
+    margin: 24px 0
+}
+
+.steps__description{
+    padding-left: 24px;
+}
+
+.step__container{
+    display: flex;
+    margin: 16px 0;
+}
+
+.step__description-con{
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.step{
+    font-size: 32px;
+    color: #cbd5e0;  
+    font-weight: 500;
+}
+
+.step__title{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.step__para{
+    color: #7c8ba1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    max-width: 320px;
+}
+
