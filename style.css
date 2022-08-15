@@ -26,6 +26,7 @@ h5{
     letter-spacing: 1.5px;
     font-weight: 700;
     font-size: 16px;
+    color: #243e63;
 }
 
 h2{
@@ -62,7 +63,7 @@ p{
 }
 
 .quality__container,
- .steps__container{
+ .steps__box{
     display: flex;
     width: 100%;
 }
@@ -285,7 +286,6 @@ font-weight: 500;
 .service__title{
     font-size: 24px;
     font-weight: 700;
-    color: #243e63;
 }
 
 .service__para{
@@ -338,29 +338,32 @@ STEPS
 
 .steps__img-container{
     width: 50%;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .steps__img{
 width: 100%;
-
 }
 
 .steps__title{
-    margin: 24px 0
+    margin-top: 16px;
+    font-weight: 900;
 }
 
 .steps__description{
-    padding-left: 24px;
+    padding-left: 56px;
 }
 
 .step__container{
     display: flex;
-    margin: 16px 0;
+    margin-top: 24px;
 }
 
 .step__description-con{
     flex-direction: column;
-    margin-left: 16px;
+    margin-left: 24px;
 }
 
 .step{
@@ -372,13 +375,14 @@ width: 100%;
 .step__title{
     font-size: 20px;
     margin-bottom: 12px;
+    font-weight: 700;
 }
 
 .step__para{
     color: #7c8ba1;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 2;
     max-width: 320px;
 }
 
