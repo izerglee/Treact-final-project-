@@ -49,6 +49,7 @@ p{
     padding: 12px 32px;
     margin-top: 36px; 
     font-weight: 700;
+    max-width: 140px;
 }
 
 .row{
@@ -75,7 +76,11 @@ p{
     width: 50%;
 }
 
-
+.text{
+    color: #7c8ba1;
+    font-weight: 500;
+    line-height: 1.5;
+}
 
 
 
@@ -386,3 +391,35 @@ width: 100%;
     max-width: 320px;
 }
 
+/* 
+
+VALUES
+
+*/
+
+.value__container{
+    display: flex;
+}
+
+.value__box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.principles__container{
+    display: flex;
+}
+
+.principles__box{
+    display: flex;
+    flex-direction: column;
+}
+
+.value__img-container{
+    width: 50%;
+}
+
+.value__img{
+    width: 100%;
+}
