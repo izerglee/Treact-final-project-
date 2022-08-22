@@ -35,6 +35,11 @@ h2{
     color: #243e63;
 }
 
+h6{
+    font-size: 20px;
+    color: #243e63;
+}
+
 p{
     font-size: 16px;
     font-weight: 400;
@@ -47,7 +52,7 @@ p{
     background:#6415ff;
     color:  #f7fafc;
     padding: 12px 32px;
-    margin-top: 36px; 
+    margin-top: 48px; 
     font-weight: 700;
     max-width: 140px;
 }
@@ -81,8 +86,6 @@ p{
     font-weight: 500;
     line-height: 1.5;
 }
-
-
 
 /*
  
@@ -314,6 +317,7 @@ padding-right: 24px;
 
 .quality__title{
     margin: 16px 0;
+    font-weight: 800;
 }
 
 .quality__para{
@@ -411,9 +415,13 @@ VALUES
     display: flex;
 }
 
+.principles__big-box{
+    margin-top: 32px;
+    margin-right: 16px;
+}
+
 .principles__box{
     display: flex;
-    flex-direction: column;
 }
 
 .value__img-container{
@@ -422,4 +430,42 @@ VALUES
 
 .value__img{
     width: 100%;
+}
+
+.value__para{
+    padding: 16px 0;
+    line-height: 1.625;
+    font-size: 20px;
+}
+
+.value__title{
+    margin-bottom: 12px;
+    font-weight: 800;
+}
+
+.principles__title{
+    padding-left: 8px;
+    padding-bottom: 16px;
+}
+
+.sign__dollar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #276749;
+    border-radius: 50%;
+    background-color: #9ae6b4;
+    height: 35px;
+    width: 35px;
+}
+
+.sign__briefcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9b2c2c;
+    border-radius: 50%;
+    background-color: #feb2b2;
+    height: 35px;
+    width: 35px;
 }
