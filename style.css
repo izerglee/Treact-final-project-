@@ -31,13 +31,15 @@ h5{
 
 h2{
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900;
     color: #243e63;
 }
 
 h6{
     font-size: 20px;
+    font-weight: 900;
     color: #243e63;
+    letter-spacing: 1.5px;
 }
 
 p{
@@ -164,6 +166,10 @@ align-items: center;
 padding: 160px 0;
 }
 
+.header__title{
+    font-weight: 700;
+}
+
 .header__description{
     width: 40%;
 }
@@ -242,11 +248,7 @@ flex-direction: column;
 }
 
 .feature__title{
-    font-size: 48px;
     padding: 16px 0;
-    font-weight: 900;
-    color: #243e63;
-    letter-spacing: 1.5px;
 }
 
 .service__purple{
@@ -317,7 +319,6 @@ padding-right: 24px;
 
 .quality__title{
     margin: 16px 0;
-    font-weight: 800;
 }
 
 .quality__para{
@@ -358,7 +359,6 @@ width: 100%;
 
 .steps__title{
     margin-top: 16px;
-    font-weight: 900;
 }
 
 .steps__description{
@@ -440,7 +440,6 @@ VALUES
 
 .value__title{
     margin-bottom: 12px;
-    font-weight: 800;
 }
 
 .principles__title{
@@ -468,4 +467,23 @@ VALUES
     background-color: #feb2b2;
     height: 35px;
     width: 35px;
+}
+
+/* 
+
+PRICING
+
+*/
+
+.pricing__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.plans{
+    display: flex;
+    width: calc(100%/3);
 }
