@@ -20,15 +20,14 @@
             <a href="" class="nav__title">Treact</a>
         </a>
     </div>
-        <div class="nav__links">
-            <a href="" class="nav__link">About</a>
-            <a href="" class="nav__link">Blog</a>
-            <a href="" class="nav__link">Pricing</a>
-            <a href="" class="nav__link">Contact Us</a>
-           <div class="primary__links">
-            <a href="" class="nav__link nav__link-login">Login</a>
-            <a href="" class="nav__link nav__link-primary">Sign Up</a>
-        </div>
+        <ul class="nav__links">
+            <li><a href="#" class="nav__link link__hover--effect">About</a></li>
+            <li><a href="#" class="nav__link link__hover--effect">Blog</a></li>
+            <li><a href="#" class="nav__link link__hover--effect">Pricing</a></li>
+            <li><a href="#" class="nav__link link__hover--effect">Contact Us</a></li>
+            <li><a href="#" class="nav__link nav__link-login link__hover--effect">Login</a></li>
+            <li><a href="#" class="nav__link nav__link-primary link__hover--effect">Sign Up</a></li>
+        </ul>
         </div>
         </div>
     </div>
@@ -130,7 +129,7 @@
             <h5><span class="purple">QUALITY WORK</span></h5>
             <h2 class="quality__title">Designed & Developed by <span class="purple">Professionals.</span></h2>
             <p class="quality__para text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button class="btn">Learn More</button>
+            <button class="btn btn__quality">Learn More</button>
         </div>
         <div class="quality__img-container">
             <img src="./assets/quality__img.png" class="quality__img" alt="">
@@ -203,7 +202,7 @@
 <p class=" text">We assure you that our templates are designed and created by professional designers.</p>
 </div>
 </div>
-<button class="btn">Learn More</button>
+<button class="btn btn__value">Learn More</button>
 </div>
 <div class="value__img-container">
     <img src="./assets/value__img.svg" class="value__img" alt="">
@@ -218,65 +217,74 @@
         <div class="pricing__container">
         <div class="price__header-container">
             <h5><span class="purple">PRICING</span></h5>
-            <h2>Reasonable & Flexible <span class="purple">Plans.</span></h2>
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 class="price__title">Reasonable & Flexible <span class="purple">Plans.</span></h2>
+        <p class="text price__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
     <div class="plans">
     <div class="plan">
-<div class="top">
-<p>PERSONAL</p>
-<p>$17.99</p>
-<p>MONTHLY</p>
-</div>
+        <div class="top__personal"></div>
+        <div class="top">
+            <ul class="content__title">
+                <li class="title__personal">PERSONAL</li>
+                <li class="price">$17.99</li>
+                <li class="duration">MONTHLY</li>
+            </ul>
+</div> 
 <div class="middle">
-<p class="individual">For Individuals</p>
-<ul>
-    <li>30 Templates</li>
-    <li>7 Landing Pages</li>
-    <li>12 Internal Pages</li>
-    <li>Basic Assistance</li>
+<ul class="content">
+    <li class="target">For Individuals</li>
+    <li class="offer">30 Templates</li>
+    <li class="offer">7 Landing Pages</li>
+    <li class="offer">12 Internal Pages</li>
+    <li class="offer">Basic Assistance</li>
 </ul>
 </div>
 <div class="bottom">
-    <button class="btn">Buy Now</button>
+    <button class="btn btn__personal">BUY NOW</button>
 </div>
     </div>
-    <div class="plan">
-        <div class="top">
-        <p>PERSONAL</p>
-        <p>$17.99</p>
-        <p>MONTHLY</p>
-        </div>
-        <div class="middle">
-        <p class="individual">For Individuals</p>
-        <ul>
-            <li>30 Templates</li>
-            <li>7 Landing Pages</li>
-            <li>12 Internal Pages</li>
-            <li>Basic Assistance</li>
+    <div class="plan plan__mid">
+        <div class="top top__mid">
+        <ul class="content__title content__title-mid">
+            <li class="title__business">BUSINESS</li>
+            <li class="price">$37.99</li>
+            <li class="duration__mid">MONTHLY</li>
         </ul>
         </div>
-        <div class="bottom">
-            <button class="btn">Buy Now</button>
+        <div class="middle middle__mid">
+        <ul class="content content__mid">
+            <li class="target">For Small Businesses</li>
+            <li class="offer__mid">60 Templates</li>
+            <li class="offer__mid">15 Landing Pages</li>
+            <li class="offer__mid">22 Internal Pages</li>
+            <li class="offer__mid">Priority Assistance</li>
+        </ul>
+        </div>
+        <div class="bottom bottom__mid">
+            <button class="btn btn__business">BUY NOW</button>
         </div>
             </div>
             <div class="plan">
                 <div class="top">
-                <p>PERSONAL</p>
-                <p>$17.99</p>
-                <p>MONTHLY</p>
-                </div>
+                    <div class="top__enterprise"></div>
+                    <ul class="content__title">
+                        <li class="title__enterprise">ENTERPRISE</li>
+                        <li class="price">$57.99</li>
+                        <li class="duration">MONTHLY</li>
+                    </ul>
+            </div>
                 <div class="middle">
-                <p class="individual">For Individuals</p>
-                <ul>
-                    <li>30 Templates</li>
-                    <li>7 Landing Pages</li>
-                    <li>12 Internal Pages</li>
-                    <li>Basic Assistance</li>
-                </ul>
+                <ul class="content">
+                    <li class="target">For Large Companies</li>
+                    <li class="offer">90 Templates</li>
+                    <li class="offer">27 Landing Pages</li>
+                    <li class="offer">37 Internal Pages</li>
+                    <li class="offer">Personal Assistance</li>
                 </div>
+                </ul>
                 <div class="bottom">
-                    <button class="btn">Buy Now</button>
+                    <button class="btn btn__enterprise">BUY NOW</button>
+                </div>
                 </div>
                     </div>
 </div>
