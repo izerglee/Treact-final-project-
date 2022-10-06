@@ -177,7 +177,7 @@ margin-left: 24px;
     opacity: 0;
     bottom: -8px;
     left: 0;
-    transition: all 500ms ease;
+    transition: 600ms;
 }
 
 .link__hover-effect:hover:after{
@@ -237,7 +237,12 @@ padding-top: 16px;
     display: flex;
     border: 2px solid #e5e7eb;
     border-radius: 50px;
-    padding: 2px 0 2px 16px;
+    padding: 2px 0 2px 18px;
+}
+
+.email:hover{
+    border-color: #a0aec0;
+    transition: 300ms;
 }
 
 .email__entry{
